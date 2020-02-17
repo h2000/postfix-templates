@@ -1,0 +1,3 @@
+## Templates for assertj ##
+.requireNonNull : java.lang 
+    ANY               [java.util.Objects]     →  java.util.Objects.requireNonNull($expr$,"$expr$")   
